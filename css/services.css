@@ -1,0 +1,59 @@
+.services {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+}
+.service_block {
+	width: 25%;
+	height: 160px;
+	background-color: rgba(71, 70, 70, 0.5);
+	margin-right: 5%;
+	margin-top: 5%;
+}
+.service_right {
+	margin-right: 0;
+}
+.service_block h2 {
+	font-size: 1.1rem;
+	margin-top: 15px;
+	color: #81F7BE;
+}
+.service_block p {
+	margin-top: 13px;
+	font-size: 0.9rem;
+}
+.service_block .btn_small {
+	margin-top: 7px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.status_field {
+	padding-bottom: 7px;
+	border-bottom: 0.5px solid #fff;
+}
+.status {
+	color: green;
+	font-weight: bold;
+}
+p {
+	margin-left: 0;
+}
+@media screen and (max-width: 1080px) {
+ 	.services {
+ 		flex-direction: column;
+ 		justify-content: space-around;
+ 		flex-basis: 100%;
+ 	}
+ 	.service_block {
+ 		width: 60%;
+ 		height: 180px;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+ 	#last {
+ 		margin-bottom: 15px;
+ 	}
+}

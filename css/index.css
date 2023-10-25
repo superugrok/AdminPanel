@@ -1,0 +1,237 @@
+/* Голова */
+.main p {
+	margin-left: 0;
+}
+.main_welcome {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.welcome_right {
+	margin-right: 30px;
+	font-size: 0.9rem;
+	position: relative;
+	bottom: 30px;
+}
+.welcome_header {
+	display: flex;
+	justify-content: center;
+}
+.welcome_head {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.1rem;
+	font-weight: unset;
+}
+@media screen and (max-width: 1130px) {
+	.main_welcome {
+		justify-content: center;
+	}
+	.welcome_head {
+		border-bottom: 1px solid #fff;
+		padding-bottom: 7px;
+	}
+	.welcome_right {
+		text-align: center;
+		margin-top: 10px;
+		margin-right: 0;
+		position: unset;
+		bottom: 0;
+	}
+}
+/* Тело */
+.tables {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.admins {
+	width: 50%;
+	height: 60vh;
+	background-color: rgba(44, 54, 68, 0.5);
+	border-radius: 8px;
+}
+.statistic_site {
+	text-align: center;
+	width: 25%;
+	height: 60vh;
+	background-color: rgba(44, 54, 68, 0.5);
+	border-radius: 8px;
+	margin-left: 1.5%;
+}
+.statistic_server {
+	display: none;
+	text-align: center;
+	width: 25%;
+	height: 60vh;
+	background-color: rgba(44, 54, 68, 0.5);
+	border-radius: 8px;
+	margin-left: 1.5%;
+}
+.statistic_site p {
+	margin-top: 20px;
+	font-size: 1.1rem;
+}
+aside .change_stat_server {
+	margin-top: 35%;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 7px;
+}
+.change_stat_server:hover {
+	color: yellow;
+	cursor: pointer;
+}
+.statistic_server p {
+	margin-top: 20px;
+	font-size: 1.1rem;
+}
+aside .change_stat_site {
+	margin-top: 35%;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 7px;
+}
+.change_stat_site:hover {
+	color: yellow;
+	cursor: pointer;
+}
+h2 {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	font-size: 1.9rem;
+}
+.server_online {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 76.5%;
+	height: 5vh;
+	border-radius: 8px;
+	background-color: rgba(80, 91, 104, 0.5);
+}
+.server_online_progress {
+	width: 30%;
+	height: 5vh;
+	border-radius: 8px;
+	background: linear-gradient(to right, rgba(24,65,242,1) 0%,rgba(130,156,255,1) 100%);
+}
+.server_online_progress p {
+	text-align: center;
+	line-height: 5.4vh;
+}
+@media screen and (max-width: 1600px) {
+	.tables {
+		flex-direction: column;
+	}
+	.admins {
+		width: 95%;
+		height: unset;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.statistic_site {
+		width: 95%;
+		height: 61vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+	.statistic_site p {
+		font-size: 1rem;
+}
+	aside div .change_stat_server {
+		margin-top: 1.5%;
+}
+	.statistic_server {
+		display: none;
+		width: 95%;
+		height: 61vh;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+	.statistic_server p {
+		font-size: 1rem;
+}
+	aside div .change_stat_site {
+		margin-top: 1.5%;
+}
+	.server_online {
+		width: 95%;
+		margin-bottom: 30px;
+	}
+}
+/* Таблицы */
+table {
+	text-align: center;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	display: inline-block;
+	width: 29%;
+	margin-top: 10px;
+	margin-left: 7px;
+	font-size: 0.7rem;
+	background-color: #4c4e54;
+	padding: 5px;
+	border: 0 solid #fff;
+	border-radius: 10px;
+}
+th {
+	font-size: 1.9rem; 
+	padding-top: 5px; 
+	padding-bottom: 20px;
+}
+.first_td {
+	margin-left: 0;
+}
+.remove {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../assets/remove.png");
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-color: unset;
+	margin-left: 5px;
+}
+.promote {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../assets/promote.png");
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-color: unset;
+	margin-left: 5px;
+}
+.demote {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../assets/demote.png");
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-color: unset;
+	margin-left: 5px;
+}
+@media screen and (max-width: 1600px) {
+	table {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	th {
+		font-size: 1rem;
+	}
+}

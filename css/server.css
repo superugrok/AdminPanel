@@ -1,0 +1,93 @@
+.server {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.server p {
+	font-size: 0.8rem;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.console {
+	border: 0px solid rgba(71, 70, 70, 0.5);
+	border-radius: 8px;
+	width: 75%;
+	height: 67vh;
+	background-color: rgba(71, 70, 70, 0.5);
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.interract {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+.interract .btn_small {
+	width: 15%;
+	height: 50px;
+	background-color: #303030;
+	border: 0 solid #303030;
+	border-radius: 0;
+	font-weight: normal;
+	font-size: 0.8rem;
+}
+.btn_send {
+	margin-left: 2%;
+}
+.btn_actions {
+	margin-left: 13.33%;
+}
+.inputer {
+	width: 83%;
+	background-color: rgba(71, 70, 70, 0.5);
+	border: 0px solid rgba(71, 70, 70, 0.5);
+	border-radius: 10px;
+	margin-bottom: 15px;
+	height: 50px;
+	padding: 5px;
+	padding-left: 12px;
+	color: #fff;
+	font-weight: bold;
+}
+@media screen and (max-width: 1040px) {
+	.inputer {
+		width: 100%;
+	}
+	.btn_send {
+		margin-left: 0;
+	}
+	.btn_actions {
+		margin-left: 0;
+	}
+	.interract .btn_small {
+		margin-left: 6.2%;
+	}
+	.console {
+		width: 80%;
+		height: 60vh;
+	}
+	.interract {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 980px) {
+	.console {
+		width: 85%;
+		height: 55vh;
+	}
+	.interract {
+		width: 85%;
+	}
+	.interract .btn_small {
+		display: none;
+	}
+	.interract .btn_send {
+		display: block;
+		width: 100%;
+	}
+}
