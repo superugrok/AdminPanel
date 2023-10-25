@@ -1,7 +1,5 @@
 # Welcome to Evi Admin Panel! 🚀
 
-![Evi Admin Panel Screenshot](./screenshot.png)
-
 This is one of my earliest projects, developed between 2018 and 2019 during my freelancing career. Evi Admin Panel is a closed administrative interface built with PHP, featuring an interactive interface powered by jQuery.
 
 I've made this repository available to showcase my skills in working with PHP, MySQL databases, jQuery, and adaptive layout. All aspects, including database setup, scripting, logic, and responsive design, were developed solely by me.
@@ -13,6 +11,7 @@ I've made this repository available to showcase my skills in working with PHP, M
 - **Two-Factor Authentication (2FA)**: An additional layer of security based on email services and Google Authenticator.
 - **Interactive Interface**: A fully interactive interface with animations implemented using jQuery.
 - **Adaptive Layout**: The design is responsive and adapts to different screen resolutions.
+- **Avatar and Password Management**: Users can customize their avatars and change passwords, with email confirmation for added security.
 
 ## Getting Started:
 
